@@ -1,0 +1,79 @@
+body{
+    background-color: #06b5d0;
+}
+
+.container {
+display: inline-block;
+width: 800px;
+margin-left: calc((100% - 800px) / 2);
+margin-top: 100px;
+}
+
+.left-column {
+display: inline-block;
+width: 40%;
+float: left;
+padding: 40px;
+background-color: blue;
+}
+
+.main-title {
+    display: inline-block;
+    width: 100%;
+}
+
+.bottom-links {
+display: inline-block;
+width: 100%;
+}
+
+.bottom-links > .link {
+    display: inline-block;
+}
+.symbol {
+    display: inline-block;
+}
+
+.right-column {
+    display: inline-block;
+    width: 60%;
+    float: left;
+    padding: 60px;
+    background-color: white
+
+}
+
+.close {
+display: inline-block;
+
+}
+
+.form {
+display: inline-block;
+width: 100%;
+}
+
+.form-row {
+display: inline-block;
+width: 100%;
+margin-bottom: 30px;
+}
+
+.form-row:last-of-type {
+ margin-bottom: 0;   
+}
+
+label {
+display: inline-block;
+width: 100%;
+}
+
+input {
+display: inline-block;
+width: 100%;
+
+}
+
+.form-row > .link (
+
+)

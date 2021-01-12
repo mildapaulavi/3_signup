@@ -1,5 +1,7 @@
 body{
-    background-color: #06b5d0;
+    background-image: url(day1dr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container {
@@ -14,21 +16,27 @@ display: inline-block;
 width: 40%;
 float: left;
 padding: 40px;
-background-color: blue;
+background-image: url(day1dr.png);
+background-repeat: no-repeat;
+background-size: cover;
+color: white;
 }
 
 .main-title {
     display: inline-block;
     width: 100%;
+    font-weight: lighter;
 }
 
 .bottom-links {
 display: inline-block;
 width: 100%;
+color: white;
 }
 
 .bottom-links > .link {
     display: inline-block;
+    color: white;
 }
 .symbol {
     display: inline-block;
@@ -45,6 +53,7 @@ width: 100%;
 
 .close {
 display: inline-block;
+float: right;
 
 }
 
@@ -72,6 +81,20 @@ input {
 display: inline-block;
 width: 100%;
 
+}
+.btn{
+padding: 5px;
+padding-left: 30px;
+padding-right: 30px;
+border-radius: 18px;
+border: none;
+background-color: rgb(95, 95, 228);
+color: white;
+}
+
+.text{
+padding-left: 20px;
+text-decoration: none;
 }
 
 .form-row > .link (

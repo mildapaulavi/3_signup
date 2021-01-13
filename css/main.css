@@ -5,7 +5,7 @@ body{
     display: inline-block;
     width: 100%;
     background-color: blue;
-    background-image: url(day1dr.png);
+    background-image: url(../img/day1dr.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
@@ -28,7 +28,7 @@ width: 40%;
 float: left;
 padding: 40px;
 background-color: blue;
-background-image: url(./day1dr.png);
+background-image: url(../img/day1dr.png);
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center bottom;
